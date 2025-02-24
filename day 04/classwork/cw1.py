@@ -1,6 +1,6 @@
 print(10+5)
 print(20-15)
-print(40/4)
+print(40/2)
 print(5*5)
 
 number1= 10+5
