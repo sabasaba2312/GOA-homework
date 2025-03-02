@@ -1,9 +1,8 @@
 #turtle-ში დახაზეთ სასახლე, კოშკზე უნდა იყოს GOA-ს დროშა, ჯგუფიდან საუკეთესო დავალების ავტორი გახდება მინი ლიდერი
 from turtle import*
-width(4)
+width(7)
 speed(100000000000000000000000000000000000)
 penup()
-begin_fill()
 right(90)
 forward(400)
 left(90)
@@ -19,7 +18,6 @@ left(110)
 forward(153)
 left(120)
 forward(160)
-end_fill()
 penup()
 left(180)
 forward(130)
@@ -334,28 +332,15 @@ forward(60)
 right(120)
 pendown()
 forward(50)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+penup()
+left(90)
+forward(750)
+right(90)
+forward(150)
+left(90)
+forward(20)
+left(90)
+forward(50)
+left(95)
 exitonclick()
 
