@@ -1,14 +1,8 @@
-#შექმენით 5 ცვლადი, რომლებშიც შეინახავთ განსხვავებულ ლოგიკურ და შედარების ოპერაციათა შედეგებს (უნდა იყოს შედარების და ლოგიკური ოპერატორები ერთად მაგალითად temperature > 30 and not cloudy), გვერდზე კომენტარის საშვალებით მიუწერეთ ეს შედეგი (boolean მნიშვნელობა) აიღეთ მრავალფეროვანი კომბინაციები
-temperature = 30
-cloudy = True
-summer = 40
-raining = True
-short = False
-print(temperature < 31 and not cloudy) # false
-print(summer > 30 or short) # true
-print(raining and not short) # true
-print(temperature >= 30 and not cloudy) # false
-print(summer <= 40 and cloudy) # true
-
-
-
+#შექმენით პროგრამა, რომელიც განსაზღვრავს productive ცვლადის მნიშვნელობას შემდეგი პირობების მიხედვით:
+#read_pages ცვლადში ინახება წაკითხული გვერდების რაოდენობა (მთლიანი რიცხვი).
+#free_time ცვლადში ინახება boolean მნიშვნელობა (True/False), რომელიც გვიჩვენებს, ჰქონდა თუ არა თავისუფალი დრო.
+#productive ცვლადი იქნება ჭეშმარიტი (True), თუ მოსწავლემ წაიკითხა მინიმუმ 20 გვერდი და თავისუფალი დრო ჰქონდა.
+read_pages = 100
+free_time = True
+productive = read_pages > 20 and free_time
+print(productive)
