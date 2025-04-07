@@ -2,7 +2,7 @@
 sum = 0
 for number in range(1, 20):
     sum = sum + number
-    print(sum)
+print(sum)
 
     
     
