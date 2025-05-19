@@ -1,0 +1,75 @@
+<!-- შექმენით მრავალგვერდიანი საიტი კრიპტო ვალუტის შესახებ, რომელშიც გამოიყენებთ ყველა თეგს რაც აქამდე ისწავლეთ: page layout, lists, tables, nav, multi-media (video, audio), forms, divs. დიზაინი დახვეწეთ Inline CSS - style ატრიბუტის საშვალებით -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(209, 209, 209);">
+    <header>
+        <div style="text-align: center; border: 2px; border-color: blue; border-style: solid; border-radius: 20px; border-color: blue; color: red; background-color: blue; border-width: 20px; font-size: x-large;"> 
+            <b>Cryptocurrency</b>
+            <nav>
+            <button><a href="tables.html">Tables</a></button>
+            <button><a href="legality.html">Legality</a></button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div>
+                <p><b>A cryptocurrency (colloquially crypto) is a digital currency designed to work through a computer network that is not reliant on any central authority, such as a government or bank, to uphold or maintain it.[2]Individual coin ownership records are stored in a digital ledger or blockchain, which is a computerized database that uses a consensus mechanism to secure transaction records, control the creation of additional coins, and verify the transfer of coin ownership.[3][4][5] The two most common consensus mechanisms are proof of work and proof of stake.[6] Despite the name, which has come to describe many of the fungible blockchain tokens that have been created, cryptocurrencies are not considered to be currencies in the traditional sense, and varying legal treatments have been applied to them in various jurisdictions, including classification as commodities, securities, and currencies. Cryptocurrencies are generally viewed as a distinct asset class in practice.[7][8][9]The first cryptocurrency was bitcoin, which was first released as open-source software in 2009. As of June 2023, there were more than 25,000 other cryptocurrencies in the marketplace, of which more than 40 had a market capitalization exceeding $1 billion.[10] As of April 2025, the cryptocurrency market capitalization was already estimated at $2.76 trillion.[11] History</b></p>
+            </div>
+        </section>
+        <section>
+            <div style="text-align: center;">
+                <h1>History</h1>
+                <p><b>In 1983, American cryptographer David Chaum conceived of a type of cryptographic electronic money called ecash.[12][13] Later, in 1995, he implemented it through Digicash,[14] an early form of cryptographic electronic payments. Digicash required user software in order to withdraw notes from a bank and designate specific encrypted keys before they could be sent to a recipient. This allowed the digital currency to be untraceable by a third party.In 1996, the National Security Agency published a paper entitled How to Make a Mint: The Cryptography of Anonymous ElectronicCash, describing a cryptocurrency system. The paper was first published in an MIT mailing list (October 1996) and later (April 19)In 1998, Wei Dai described "b-money," an anonymous, distributed electronic cash system.[16] Shortly thereafter, Nick Szabo described bit gold.[17] Like bitcoin and other cryptocurrencies that would follow it, bit gold (not to be confused with the later gold-based exchange BitGold) was described as an electronic currency system that required users to complete a proof of work function with solutions being cryptographically put together and published.In January 2009, bitcoin was created by pseudonymous developer Satoshi Nakamoto. It used SHA-256, a cryptographic hash function, in its proof-of-work scheme.[18][19] In April 2011, Namecoin was created as an attempt at forming a decentralized DNS. In October 2011, Litecoin was released, which used scrypt as its hash function instead of SHA-256. Peercoin, created in August 2012, used a hybrid of proof-of-work and proof-of-stake.[20] On 6 August 2014, the UK announced its Treasury had commissioned a study of cryptocurrencies and what role, if any, they could In June 2021, El Salvador became the first country to accept bitcoin as legal tender, after the Legislative Assembly had voted 62–22 to pass a bill submitted by President Nayib Bukele classifying the cryptocurrency as such.[26] In September 2021, the government of China, the single largest market for cryptocurrency, declared all cryptocurrency transactions illegal. This completed a crackdown on cryptocurrency that had previously banned the operation of intermediaries On 15 September 2022, the world's second largest cryptocurrency at that time, Ethereum, transitioned its consensus mechanism from proof-of-work (PoW) to proof-of-stake (PoS) in an upgrade process known as "the Merge". According to the Ethereum Founder, the upgrade would cut both Ethereum's energy use and carbon-dioxide emissions by 99.9%.[29]On 11 November 2022, FTX Trading Ltd., a cryptocurrency exchange, which also operated a crypto hedge fund, and had been valued at $18 billion,[30] filed for bankruptcy.[31] The financial impact of the collapse extended beyond the immediate FTX customer base, as reported,[32] while, at a Reuters conference, financial industry executives said that "regulators must step in to protect crypto investors."[33] Technology analyst Avivah Litan commented on the cryptocurrency ecosystem that "everythingneeds to improve dramatically in terms of user experience, controls, safety, customer service."[34]</b></p>
+                <img src="bitcoin.jpg">
+            </div>
+        </section>
+        <article>
+            <div>
+                <h1 style="text-align: center;">Formal definition</h1>
+                <p>According to Jan Lansky, a cryptocurrency is a system that meets six conditions:</p>
+                <ol>
+                    <li>The system does not require a central authority; its state is maintained through distributed consensus.</li>
+                    <li>The system keeps an overview of cryptocurrency units and their ownership.</li>
+                    <li>The system defines whether new cryptocurrency units can be created. If new cryptocurrency units can be created, the system defines the circumstances of their origin and how to determine the ownership of these new units.</li>
+                    <li>Ownership of cryptocurrency units can be proved exclusively cryptographically.</li>
+                    <li>The system allows transactions to be performed in which ownership of the cryptographic units is changed. A transaction statement can only be issued by an entity proving the current ownership of these units.</li>
+                    <li>If two different instructions for changing the ownership of the same cryptographic units are simultaneously entered, the system performs at most one of them.</li>
+                </ol>
+                <p><i>In March 2018, the word cryptocurrency was added to the Merriam-Webster Dictionary.</i></p>
+            </div>
+        </article>
+        <aside>
+            <h1>Which cryptocurrency do you prefer?</h1>
+            <form>
+                <select>
+                    <option value="Market cap">Market cap</option>
+                    <option value="BTC 2.05T">BTC 2.05T</option>
+                    <option value="ETH 284.90B">ETH 284.90B</option>
+                    <option value="USDT 149.72B">USDT 149.72B</option>
+                    <option value="XRP 140.11B">XRP 140.11B</option>
+                </select>
+            </form>
+            <h1>Are you of legal age?</h1>
+            <form>
+                <label for="age">age</label>
+                <input id="age" type="number" name="age" required><br><br>
+                <input type="submit">
+            </form>
+            <div style="text-align: center;">
+            <video controls>
+            <source src="Cryptocurrency In 5 Minutes _ Cryptocurrency Explained _ What Is Cryptocurrency_ _ Simplilearn.mp4" type="video/mp4">
+        </video>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>saba tavartkiladze</p>
+    </footer>
+</body>
+</html>
