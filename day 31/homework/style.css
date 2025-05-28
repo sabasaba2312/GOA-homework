@@ -1,0 +1,35 @@
+h1 , h2 {
+            color: aqua;
+            text-align: center;
+            background-color: purple;
+            border-radius: 20px;
+            border-color: purple;
+            border-width: 20px;
+            border-style: solid;
+        }
+
+        p {
+            font-size: x-large;
+        }
+
+        #p1 {
+            color: purple;
+        }
+        
+        div {
+            color: purple;
+        }
+
+        #div1 {
+            color: blueviolet;
+        }
+
+        #ul1 {
+            color: red;
+            text-align: center;
+        }
+
+        button {
+            color: red;
+            background-color: purple;
+        }
