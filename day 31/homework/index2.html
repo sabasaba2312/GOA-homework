@@ -1,0 +1,23 @@
+<!-- თქვენის სიტყვებით ახსენით და კომენტარებით დაწერეთ CSS specificity (ბრაუზერის ალგორითმი რომელიც პრიორიტეტების მიხედვით ანიჭებს ელემენტებს სტილს) მოიყვანეთ 4-ივე შემთხვევის მაგალითი -->
+<!-- CSS Specificity — ეს არის ბრაუზერის ალგორითმი რომელიც წყვეტს რომელი სტილი გავრცელდება მასზე როდესაც ერთი და იგივე ელემენტზე რამდენიმე წესი ვრცელდება -->
+<!-- ბრაუზერი ირჩევს სტილს სპეციფიკურობის მიხედვით -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #goa {
+            color: red;
+        }
+
+        .saba {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="goa"  class="saba" style="color: green;">goa</h1>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!-- კომენტარებით დაწერეთ CSS-ის სხვადსხვა წესების სელექტორად იგივე ელემენტი როდესაც გვაქვს რომელი სტილი იმარჯვებს, რომელი სელექტორია ყველაზე პრიორიტეტული. მოიყვანეთ ყველა დონის მაგალითი -->
+<!-- id - ყველაზე დიდი პრიორიტეტი აქვს -->
+<!-- class - საშუალო პრიორიტეტი  -->
+<!-- თეგებს ყველაზე დაბალი პრიორიტეტი აქვს -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: red;
+        }
+
+        #goa {
+            color: green;
+        }
+
+        .saba {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>goa</h1>
+    <h1 id="goa">i love goa</h1>
+    <h1 class="saba">we love goa</h1>
+</body>
+</html>
