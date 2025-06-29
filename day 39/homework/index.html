@@ -1,0 +1,35 @@
+<!-- შექმენით ნავიგაცია რომელშიც იქნება 3 ბმული, თითოეულს pseudo class-ის გამოყენებით შეუჩვალეთ hover და active მდოგმარეობებისას ტექსტის ფერი და დამატებით 2 კუთვნილება. კომენტარებით თუ რა არის pseudo class და მდგომარეობა (state) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .saba:hover {
+            color: red;
+            text-decoration: solid;
+            font-size: smaller;
+        }
+        .beqa:active {
+            color: aqua;
+            text-decoration: double;
+            font-size: xx-small;
+        }
+
+        .nika:hover{
+            color: red;
+            font-size: small;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a class="saba" href="https://www.youtube.com/">youtobe</a>
+        <a class="beqa" href="https://www.facebook.com/">facebook</a>
+        <a class="nika" href="https://discord.com/">discord</a>
+    </nav>
+</body>
+</html>

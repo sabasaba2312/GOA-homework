@@ -1,0 +1,84 @@
+<!--შექმენით ლინკების სია რომელშიც თითო ლინკი გადაჰყავს სხვადასხვა საიტზე (მაგ: sololearn, wikipedia, w3schools). თითოეულ ლინკს შეუცვალეთ ფერი და კიდევ ორი სტილი (მაგ: background-color, text-decoration) ოთხივე მდგომარეობაში: :link, :visited, :hover, :active. გამოიყენეთ კლასები და კომენტარებით დაუწერეთ რა მდგომარეობას წარმოადგენს თითოეული pseudo-class  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .saba:link{
+            color: red;
+            background-color: aqua;
+            text-decoration: line-through;
+        }
+        .saba:visited {
+            color: aqua;
+            background-color: brown;
+            text-decoration: solid;
+        }
+        .saba:hover{
+            color: green;
+            background-color: aquamarine;
+            text-decoration: overline;
+        }
+
+        .saba:active{
+            color: blanchedalmond;
+            background-color: brown;
+            text-decoration: wavy;
+        }
+
+        .nika:link{
+            color: red;
+            background-color: aqua;
+            text-decoration: line-through;
+        }
+        .nika:visited {
+            color: aqua;
+            background-color: brown;
+            text-decoration: solid;
+        }
+        .nika:hover{
+            color: green;
+            background-color: aquamarine;
+            text-decoration: overline;
+        }
+        .nika:active {
+            color: antiquewhite;
+            background-color: green;
+            text-decoration: double;
+        }
+
+        .beqa:link{
+            color: red;
+            background-color: aqua;
+            text-decoration: line-through;
+        }
+        .beqa:visited {
+            color: aqua;
+            background-color: brown;
+            text-decoration: solid;
+        }
+
+        .beqa:hover{
+            color: green;
+            background-color: aquamarine;
+            text-decoration: overline;
+
+        .beqa:active {
+            color: blanchedalmond;
+            background-color: brown;
+            text-decoration: wavy;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a class="saba" href="https://www.youtube.com/">youtobe</a>
+        <a class="beqa" href="https://www.facebook.com/">facebook</a>
+        <a class="nika" href="https://discord.com/">discord</a>
+    </nav>
+</body>
+</html>
