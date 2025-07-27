@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    border: 2px solid blue;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.box {
+    height: 150px;
+    width: 150px;
+    color: green;
+    background-color: red;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    border: 2px solid pink;
+}

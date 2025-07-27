@@ -1,0 +1,18 @@
+input[type=text] {
+    border-radius: 8px; border: 2px solid gray;
+}
+
+input[type=password] {
+    border-radius: 8px; border: 2px solid gray;
+}
+
+
+
+input[type=button] {
+    background-color: green; color: white; font-weight: bold;
+}
+
+button:hover {
+    color: darkgreen;
+}
+

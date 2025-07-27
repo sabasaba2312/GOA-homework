@@ -1,0 +1,16 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+}
+.box {
+    background-color: blue;
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    width: 150px;
+    height: 200px;
+    
+}

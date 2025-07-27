@@ -1,0 +1,10 @@
+
+ul li{
+    list-style-position: inside;
+    list-style-type: lower-latin;
+    list-style-image: none;
+}
+
+ol li{
+    list-style: inside lower-roman none;
+}

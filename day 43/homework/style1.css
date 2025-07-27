@@ -1,0 +1,41 @@
+#box1 {
+    background-color: red;
+    border-radius: 20%;
+    border: 4px dashed blue;
+    margin: 20px;
+    padding: 30px;
+}
+
+#box2 {
+    background-color: green;
+    border-radius: 50%;
+    border: 2px solid burlywood;
+    margin: 10px;
+    padding: 15px;
+}
+
+#box3 {
+    background-color: blue;
+    border-radius: 30%;
+    border: 7px solid brown;
+    margin: 30px;
+    padding: 35px;
+}
+
+
+#box4 {
+    background-color: pink;
+    border-radius: 30%;
+    border: 9px solid navajowhite;
+    margin: 45px;
+    padding: 40px;
+}
+
+
+#box5 {
+    background-color: bisque;
+    border-radius: 10%;
+    border: 1px solid grey;
+    margin: 60px;
+    padding: 5px;
+}
